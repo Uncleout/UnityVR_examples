@@ -55,6 +55,7 @@ public class move : MonoBehaviour
 	public void position2()
 	{
 		
+		
 		// GameObject.Find("Head").transform.position += new Vector3(0f,2f,0f);     works fine 
 		
 		Vector3 pos2 = GameObject.Find("Cube2").transform.position;
@@ -117,6 +118,7 @@ public class move : MonoBehaviour
 	public void position7()
 	{
 		
+	
 		// GameObject.Find("Head").transform.position += new Vector3(0f,2f,0f);     works fine 
 		
 		Vector3 pos7 = GameObject.Find("Cube7").transform.position;
