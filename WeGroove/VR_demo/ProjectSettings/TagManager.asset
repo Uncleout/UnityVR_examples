@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - clumb1
+  - carrot1
+  - watermelon1
+  - mushroom1
+  - tomato1
+  - btn1
   layers:
   - Default
   - TransparentFX
