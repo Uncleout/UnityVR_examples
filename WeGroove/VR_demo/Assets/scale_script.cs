@@ -54,6 +54,7 @@ public class scale_script : MonoBehaviour {
 		but1pos.y = 0;
 		but1pos.z = button1.transform.localPosition.z;
 		button1.transform.localPosition = but1pos;
+		
 	}
 		
 	    public void ScaleDownButton1()
@@ -66,7 +67,7 @@ public class scale_script : MonoBehaviour {
 		    sensorpos.z = sensor.transform.localPosition.z;
 		    sensor.transform.localPosition = sensorpos; 
 		    
-		    GameObject.Find("Button").gameObject.SetActive(false);
+		    
 		    
 		    GameObject button2= GameObject.Find("Button2");
 		    Vector3 but2pos =new  Vector3();
@@ -74,6 +75,10 @@ public class scale_script : MonoBehaviour {
 		    but2pos.y = 0;
 		    but2pos.z = button2.transform.localPosition.z;
 		    button2.transform.localPosition = but2pos;
+		    
+		    GameObject.Find("Button1").gameObject.SetActive(false);
+		    
+		    
 		    
 	    }
 
