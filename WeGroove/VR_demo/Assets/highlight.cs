@@ -21,11 +21,7 @@ public class highlight : MonoBehaviour
 
 	public void OnMouseEnter()
 	{
-		ColourRed = Color.blue;
-		if (GvrPointerInputModule.Pointer.IsPointerIntersecting)
-		{
-			GameObject.Find("sensor").GetComponent<Renderer>().material.color = ColourRed;
-		}
+		
 
 	}
 }
